@@ -9,10 +9,17 @@ html {
   box-sizing: inherit;
   margin: 0;
   padding: 0;
+  color: #fff;
 }
 
 /* сокращенный сброс настроек кнопок во всех браузерах */
 body {
   /* плавный скрол */
   scroll-behavior: smooth;
+  background-color: #081b2c;
+}
+.conteiner{
+  max-width: 69.375rem;
+  width: 100%;
+  margin: 0 auto;
 }
