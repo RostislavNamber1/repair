@@ -14,7 +14,13 @@ font-family: "Arial Black";
 font-family: "Impact";
 font-family: "Comic Sans MS";
  */
-h1{}
+h1{
+    font-size: 3rem;
+    @media screen and(max-width: 1110px){
+        text-align: center;
+        font-size: 2rem;
+    }
+}
 h2{}
 h3{}
 h4{}
